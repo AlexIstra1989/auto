@@ -233,3 +233,145 @@ body {
 .benefits__text {
  color: #C4C4C4;
 }
+
+.slider {
+ padding-bottom: 100px;
+}
+
+.slider__inner {
+ margin: 0 -7px; 
+ color:#2C2B2B
+}
+
+.slide__box {
+ border: 1px solid #C1C1C1;
+ padding: 6px 6px 16px 6px;
+ margin: 0 7px;
+ text-align: center;
+ transition: all 0.5s;
+}
+
+.slide__box:hover {
+ background-color: #5A0D67;
+}
+
+.slide__box:hover .slide__name {
+ color: #FFF;
+}
+
+.slide__box:hover .slide__price {
+ color: #FFF;
+}
+
+.slide__image {
+ max-width: 100%;
+ margin-bottom: 23px;
+}
+
+.slide__name,
+.slide__price {
+ font-weight: 300;
+ color:#2C2B2B
+}
+
+.slick-dots {
+ display: flex;
+ justify-content: center;
+ font-size: 0;
+ cursor: pointer;
+ margin-top: 50px;
+}
+
+.slick-dots button {
+ width: 50px;
+ height: 2px;
+ background-color: #C4C4C4;
+}
+
+.slick-dots li:not(:last-child) {
+ margin-right: 20px;
+}
+
+.slick-active button {
+ background-color: #5A0D67;
+ height: 3px;
+}
+
+.contacts__inner {
+ display: flex;
+ justify-content: space-between;
+}
+
+.contacts__info {
+ padding-top: 50px;
+}
+
+.contacts__item:not(:last-child) {
+ margin-bottom: 20px;
+}
+
+.contacts__list-item:first-child {
+ color: #5A0D67;
+}
+
+.contacts__list-link {
+ color: #21062A;
+}
+
+.contacts__form {
+ background-color: #21062A;
+ max-width: 600px;
+ width: 100%;
+ padding-top: 50px;
+ text-align: center;
+}
+
+.contacts__title--form {
+ color: #FFF;
+ position: relative;
+ margin-bottom: 16px;
+}
+
+.contacts__title--form::after {
+ background-color: #fff;
+}
+
+.contacts__field {
+ display: block;
+ max-width: 450px;
+ width: 100%;
+ margin: 0 auto;
+ padding: 24px;
+ background-color: transparent;
+ border: 1px solid #FFF;
+ margin-bottom: 12px;
+}
+
+.contacts__field::placeholder {
+ text-align: center;
+}
+
+.contacts__btn {
+ margin: 64px 0 57px;
+ color: #FFF;
+} 
+
+.footer {
+ background-color: #21062A;
+ padding: 24px;
+}
+
+.footer__inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.footer__social {
+ display: flex;
+ align-items: center;
+}
+
+.footer__social-item:not(:last-child) {
+ margin-right: 10px;
+}
